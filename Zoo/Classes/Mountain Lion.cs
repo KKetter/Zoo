@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Polar_Bear : Bear
+    class Mountain_Lion : Feline
     {
-        public string FurAppearance { get; set; } = "White";
+        public string FurAppearance { get; set; } = "tan";
+
     }
 }
