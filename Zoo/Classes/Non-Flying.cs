@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    abstract class Non_Flying : Birds
+    public abstract class Non_Flying : Birds
     {
         public virtual bool CanFly { get; set; } = false;
 

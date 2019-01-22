@@ -5,7 +5,7 @@ using Zoo.Interfaces;
 
 namespace Zoo.Classes
 {
-    class Black : Bear, ISwim, IAmMascot
+    public class Black : Bear, ISwim, IAmMascot
     {
         public string FurAppearance { get; set; } = "Black";
         public override int Legs { get; set; } = 4;
@@ -18,7 +18,7 @@ namespace Zoo.Classes
 
         public string RepresentingMyTeam()
         {
-            Console.WriteLine("Go team? Yay Chicago!");
+            Console.WriteLine("Go team? Bear Down!");
             return "Go team? Bear Down!";
         }
     }
