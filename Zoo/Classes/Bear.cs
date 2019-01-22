@@ -8,7 +8,7 @@ namespace Zoo.Classes
     {
         public virtual bool HasClaws { get; set; } = true;
 
-        public override int Legs { get; set; } = 4;
+        //public override int Legs { get; set; } = 4;
         public override string Food { get; set; } = "salmon";
         public override int HoursSleep { get; set; } = 8;
     }

@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Zoo
+namespace Zoo.Interfaces
 {
-    class Class1
+    interface ISwim
     {
+        string swimSpeed();
     }
 }
