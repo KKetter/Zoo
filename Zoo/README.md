@@ -19,7 +19,9 @@ We could use private classes to prevent information from being available.
 
 ![Zoo Diagram](https://github.com/KKetter/Zoo/blob/READMe/Zoo/Assets/ZooDiagram.PNG)
 
-Add the following to your current readme from Lab 5/Part 1:
-Define what an interface is in your own words
-Describe what your interfaces are, where are they being implemented, and why. Provide Examples.
-Updated diagram with your interfaces mapped out.
+Interface: is a type defition similar to a class, except that it represents a contact
+between an object and its user.  It can neither be instantiated as an object, nor can data memebers be defined.
+
+In this project I have implemented interfaces to show animals who swim and those that might be sports team mascots.
+The swimming animals will display why they swim fast, while the mascots
+will display a phrase supporting a city associated with the animal.
