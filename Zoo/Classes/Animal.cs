@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    abstract class Animal
+    public abstract class Animal
     {
         public abstract int Legs { get; set; }
         public abstract string Food { get; set; }

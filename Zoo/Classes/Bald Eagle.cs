@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Zoo.Interfaces;
 
 namespace Zoo.Classes
 {
-    class Bald_Eagle : Flying
+    public class Bald_Eagle : Flying, IAmMascot
     {
         public override string Food { get; set; } = "Freedom";
         /// <summary>
@@ -13,7 +14,7 @@ namespace Zoo.Classes
         /// <returns></returns>
         public override string Sound()
         {
-            return "Birds sound like freedom";
+            return "Eagles sound like freedom";
         }
         /// <summary>
         /// 

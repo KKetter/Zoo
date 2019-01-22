@@ -7,5 +7,7 @@ namespace Zoo.Interfaces
     interface IAmMascot
     {
         string RepresentingMyTeam();
+
+       
     }
 }

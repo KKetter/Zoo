@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Mountain_Lion : Feline
+    public class Mountain_Lion : Feline
     {
         public string FurAppearance { get; set; } = "tan";
 

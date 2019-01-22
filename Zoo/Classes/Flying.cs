@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    abstract class Flying : Birds
+    public abstract class Flying : Birds
     {
         public virtual bool CanFly { get; set; } = true;
         public override int HoursSleep { get; set; } = 2;
